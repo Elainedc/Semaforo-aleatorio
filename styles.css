@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.semaforo {
+    background-color: #333;
+    width: 100px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.luz {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #555; /* Cor inicial (cinza) */
+    margin: 10px 0;
+}
+
+// Esse é um comentário
