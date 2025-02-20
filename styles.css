@@ -27,5 +27,7 @@ body {
     background-color: #555; /* Cor inicial (cinza) */
     margin: 10px 0;
 }
-
-// Esse é um comentário
+// Apague essa linha
+* {
+    border: 1px solid black;
+}
